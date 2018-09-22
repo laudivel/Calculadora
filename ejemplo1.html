@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="Calculadora">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js"></script>
+    <script src="Scripts/app.js"></script>
+    <title>Calculadora</title>
+</head>
+<body ng-controller='CalculadoraCtrl'>
+    <!-- <input type="number"ng-model="sumando1"> 
+    <input type="number"ng-model="sumando2">
+    <button ng-click="sumar()">=</button>
+    <input type="number"ng-model="suma" disabled>
+    <br/> -->
+    <div> 
+            <input ng-model="display" disabled>
+            <br/>
+            <input ng-model="resultado" disabled>
+            <br/>
+            <button ng-click="valor('0')" >0</button>
+            <button ng-click="valor('1')" >1</button>
+            <button ng-click="valor('2')" >2</button>
+            <br/>
+            <button ng-click="valor('3')" >3</button>
+            <button ng-click="valor('4')" >4</button>
+            <button ng-click="valor('5')" >5</button> 
+            <br/>
+            <button ng-click="valor('6')" >6</button>
+            <button ng-click="valor('7')" >7</button>
+            <button ng-click="valor('8')" >8</button>
+            <button ng-click="valor('9')" >9</button>
+            
+            <button ng-click="operacion('-')" >-</button>
+            <button ng-click="operacion('+')" >+</button>
+            <button ng-click="operacion('*')" >*</button>
+            <button ng-click="operacion('/')" >/</button>
+            <button ng-click="igual()">=</button>  
+            <button ng-click="borrarTodo()">C</button> 
+            
+
+
+
+            <!--<input ng-model="display" disabled>
+            <br/>
+            <input ng-model="resultado" disabled>
+            <br/>
+            <button ng-click="valor(0)" class="number" >0</button>
+            <button ng-click="valor(1)" class="number" >1</button>
+            <button ng-click="valor(2)" class="number" >2</button>
+            <button ng-click="valor(3)" class="number" >3</button>
+            <button ng-click="valor(4)" class="number" >4</button>
+            <button ng-click="valor(5)" class="number" >5</button>
+            <button ng-click="valor(6)" class="number" >6</button>
+            <button ng-click="valor(7)" class="number" >7</button>
+            <button ng-click="valor(8)" class="number" >8</button>
+            <button ng-click="valor(9)" class="number" >9</button>
+            <button ng-click="sumar()"  id="demoMas">+</button>
+            <button ng-click="restar()"  id="demoMenos">-</button>
+            <button ng-click="multiplicar()"   id="demoMulti">*</button>
+            <button ng-click="dividir()"   id="demoDiv">/</button>
+            <button ng-click="igual()"  id="demoIgual">=</button>  -->
+            
+           
+
+    </div>
+    
+
+</body>
+</html>
